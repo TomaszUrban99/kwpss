@@ -1,0 +1,5 @@
+function [Kcw] = Kcw_calc(Kcg, Tgp, Twew, TzewN, cp, fmg);
+
+Kcw = Kcg * ( Tgp - Twew )
+
+end
